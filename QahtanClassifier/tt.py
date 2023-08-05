@@ -1,0 +1,1 @@
+#from QahtanClassifier import get_pred_labelimport quhran_predictxx = ['عام ألفين وثلاثة وعشرين']maxlabel, details = quhran_predict.get_pred_label(xx)print(maxlabel)print(details)
