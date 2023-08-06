@@ -28,10 +28,12 @@ Max Result:Maghrib
 ```
 ```bash
 عام ألفين وثلاثة وعشرين
+
 Max Result:['Classic\t46.845', 'MSA\t42.748', 'Levant\t9.023', 'Gulf\t0.799', 'Iraq\t0.324', 'Yemen\t0.195', 'Sudan\t0.053', 'Maghrib\t0.007', 'Egypt\t0.007']
 ```
 ```bash
 مقلع ما معك هانا يا عق والديك
+
 Max Result:['Yemen\t98.249', 'Levant\t1.683', 'Egypt\t0.035', 'Sudan\t0.022', 'Classic\t0.006', 'Maghrib\t0.002', 'Gulf\t0.001', 'Iraq\t0.001', 'MSA\t0.001']
 ```
 
