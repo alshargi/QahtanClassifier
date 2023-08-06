@@ -122,17 +122,25 @@ def findres(X_new):
 
 #################
 def get_pred_label(to_predict):
-    maxres, res_main = get_pred_main(to_predict)
-    
-    if str(maxres) == str('Gulf'):
-        keepall = get_pred_gulf(to_predict)
-    elif str(maxres) == str('Levant'):
-        keepall = get_pred_LEvant(to_predict)
-    elif str(maxres) == str('Maghrib'):
-        keepall = get_pred_mor(to_predict)
-    else:
-        keepall = res_main
-        
-    return "Max Result : "  +  maxres , keepall
-    
+    keepallFinal = []
+    for tx in to_predict:
+        maxres, res_main = get_pred_main([tx])
+        if str(maxres) == str('Gulf'):
+            keepall = get_pred_gulf(to_predict)
+            keepallFinal.append("{}\tMax Result:{}\t{}".format(tx, maxres, keepall))
+        elif str(maxres) == str('Levant'):
+            keepall = get_pred_LEvant(to_predict)
+            keepallFinal.append("{}\tMax Result:{}\t{}".format(tx, maxres, keepall))
+
+        elif str(maxres) == str('Maghrib'):
+            keepall = get_pred_mor(to_predict)
+            keepallFinal.append("{}\tMax Result:{}\t{}".format(tx, maxres, keepall))
+
+        else:
+            keepall = res_main
+            keepallFinal.append("{}\tMax Result:{}".format(tx,res_main))
+
+            
+    return keepallFinal
+
 
