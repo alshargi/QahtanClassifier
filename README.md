@@ -1,4 +1,4 @@
-# QahtanClassifier: Arabic Dialects classifier:
+# QahtanClassifier, Arabic Dialects classifier:
 The Gulf region encompasses countries such as NAJD, OMAN, KWAIT, BAHRAIN, EMARAT, and QATAR. Yemen stands alone as a distinct country. Moving to the Maghrib region, it includes countries like MORoco, LYBia, TUNes, MORitania, and ALGeria. The Levant region consists of SYRIA, PALESTINE, JORDAN, and LEBANON. Iraq and Egypt are individual countries, as is Sudan. Additionally, there are two linguistic classifications: Modern Standard Arabic (MSA) and Classic Arabic. MSA represents the standardized form of Arabic used in formal contexts, while Classic Arabic refers to the ancient form of the language found in religious texts and historical documents. The QahtanClassifier Python library is also noteworthy, as it provides classifiers capable of classifying any Arabic text into the aforementioned labels, offering a comprehensive solution for text classification tasks in Arabic.
 
 
